@@ -1,0 +1,137 @@
+:root {
+    
+    --bar-color: #24A19C;
+
+  }
+
+.flex-container{
+    display: flex;
+    direction: row;
+    min-height: 70px;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1);
+    
+     
+}
+.head{
+    background: lightgrey;  transition: 500ms ease-in-out;
+}
+.head-button{
+    background-color: lightgrey;
+}
+hr{
+    margin:2% 2% 2% 2% ;
+}
+
+body button{
+    background: black;
+}
+.bararea{
+    transform: scaleY(-1);
+    margin: 2% 5%;
+    transition: 500ms ease-in-out;
+    display: flex;
+    direction: row;
+    align-content: center;
+    height: 200px;
+
+ 
+
+    justify-content: space-evenly;
+position: relative;
+
+}
+.bar{
+
+ 
+  margin-bottom: 0;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    background: var(--bar-color);
+    transition:  height 100ms ease-in-out,width 500ms ease-in-out;
+}
+.pivot{
+    margin:0 3px;
+    background-color: black !important;
+}
+.left
+{ margin:0 1px;
+    background-color: #FFAB76!important;}
+.selected{
+    margin:0 1px 0 1px ;
+    background-color: #FF6363 !important
+    ;
+}
+.button-container{
+    display:flex;
+    
+    padding-bottom: 2%;
+    direction:row;
+}
+.button-container div{
+  
+   
+   
+  
+    text-align: center;
+    
+}
+
+.flex-container button {
+    padding : 0 1rem ;
+   
+   
+    border: none;
+
+}
+
+.flex-container h3{
+    margin: auto 2%;
+}
+.flex-container div{
+    margin :auto;
+    
+    padding:0.2rem 0.1rem 0.2rem 0.2rem ;
+} 
+input{
+    
+    
+    height: 1.5rem;
+    border-radius: 2px;
+    width: 20%;
+    border-radius: 5px;
+   margin-left:2%; 
+   
+}
+.options{
+    align-content: flex-end;
+    box-shadow: none;
+    padding:2% 1% 1% 2%;
+
+}
+.options button{
+    background: black;
+    width: 1.5rem;
+    height: 10px;
+    padding:0;
+    border-radius: 20px;
+   margin: 1% 1% ;
+  
+}
+.options button:hover{
+    border:none;
+
+}
+
+.theme-box{
+   display: inline-block;
+   width: 50%;
+  margin-left: 0 !important;
+}
+
+.red-theme{
+    background: red;
+}
+
+.options span{
+    color:black !important;
+}

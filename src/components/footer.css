@@ -1,0 +1,12 @@
+.footer{
+    background-color: lightgrey;
+    padding :2% 2%;
+    margin-top: 7%;
+   text-align: center;
+    transition: 500ms ease-in-out;
+}
+.footer h3{
+
+display :inline-block;
+}
+
